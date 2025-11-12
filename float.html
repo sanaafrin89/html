@@ -1,32 +1,34 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>float</title>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Document</title>
 </head>
 <body>
-  <div style="background-color: black; height: 500px; text-align: center; width: 1000px;">
-    <div style="background-color: gray; text-align: center;">
-        <h1 style="color: white;">Heading</h1>
-    </div>
-    <div style="float: left;background-color: green; width: 1000px; text-align: center;">
-        <div style="float: left; background-color: gray;">home</div>
-        <div style="float: left; background-color: gray;">Services</div>
-        <div style="float: left; background-color: gray;">center</div>
-    </div>
-    <div style="background-color: rgb(171, 171, 255);clear: both;">
-    <div style="float: left;background-color: skyblue; width: 100px; height: 300px;">
-        left content
-    </div>
-    <div  style="float: left;background-color: sandybrown; width: 900px; height: 300px;">
-        right content
-    </div>
-    </div>
-    <div style="background-color: red;">
-        footer
-    </div>
+  <div id="container" style="background-color: black; height: 500px; text-align: center; width: 100%;">
+      <div id="header" style="background-color: grey;">
+        <h1 style="color: white;" >Heading</h1>
+       <div id="nav" style="float: left;background-color: green; width: 100%; text-align: center;" >
+        <div style="float: left;"> Home</div>
+        <div style="float: left;"> about</div>
+        <div style="float: left;"> Services</div>
+       </div>
 
- </div>
+      </div>
+      <div id="content" style="background-color: rgb(171, 171, 255);clear: both;">
+        <div id="left" style="float: left; width: 10%;background: aqua;height: 300px;">
+          left content
+        </div>
+        <div id="right" style="float: left;width: 90%;background-color: palegoldenrod;height: 300px;"> 
+          right content
+        </div>
+      </div>
+      <div id="footer" style="background-color: red; clear: both;">
+        <p>footer</p>
+      </div>
+
+
+  </div>
 </body>
 </html>
