@@ -1,0 +1,219 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>float based web layout</title>
+    <style>
+        #container1{
+            width: 100vw;
+        }
+        .container2{
+            background-color: rgb(43, 119, 150); width: 100vw; height: 150px;
+        }
+        .ii{
+            color: white; text-align: center; padding-top: 10px;
+        }
+        .container3{
+            background-color: rgb(107, 147, 180);width: 90vw; height: 40px;margin-left: 30px; padding-left: 30px;
+                 }
+        .container4{
+            float: left; background-color:rgb(160, 192, 223);text-align: center; width: 20vw; height: 30px;
+            margin-left: 10px;
+            margin-right: 10px;
+            margin-top: 5px;
+        }
+        .container5{
+            float: left; background-color:rgb(160, 192, 223);text-align: center; width: 20vw;height: 30px;
+            margin-left: 10px;
+            margin-right: 10px;
+            margin-top: 5px;
+        }
+        .container6{
+            float: left; background-color:rgb(160, 192, 223);text-align: center; width: 20vw;height: 30px;
+            margin-left: 10px;
+            margin-right: 10px;
+            margin-top: 5px;
+        }
+        .container7{
+            float: left; background-color:rgb(160, 192, 223);text-align: center; width: 20vw;height: 30px;
+            margin-left: 10px; 
+            margin-right: 10px;
+            margin-top: 5px;
+        }
+        .container8{
+            float: left; clear: both;
+        }
+        #cp{
+            float: left; background-color: rgb(187, 247, 227); width: 20vw; height: 300px;
+        margin-left: 15px;
+        margin-top: 55px;
+        }
+        .container9{
+            padding-left: 15px;
+            margin-left: 15px;
+                   margin-right: 15px;
+        }
+        .container10{
+            padding-left: 15px;
+           
+            
+        }.container11{
+            margin-left: 15px;
+            margin-right: 15px;
+        }
+        .container12{
+            padding-left: 15px;
+        }.container13{
+            margin-left: 15px;
+            margin-right: 15px;
+        }
+        .container14{
+            padding-left: 15px;
+        }.container15{
+            margin-left: 15px;
+            margin-right: 15px;
+        }
+        .container16{
+            padding-left: 15px;
+        }.container17{
+            margin-left: 15px;
+            margin-right: 15px;
+        }
+        .container18{
+            padding-left: 15px;
+        }
+        .container19{
+            float: left; background-color: rgb(228, 228, 228); width: 1000px; height: 300px;margin-top: 55px;
+        }
+        .container20{
+            width: 1000px;
+        }
+        .container21{
+            padding-left: 20px;
+        }
+        .container22{
+            padding-left: 20px;
+        }
+        .container23{
+            float: left; background-color: rgb(235, 209, 250); width: 400px; height: 150px;
+                    margin-left: 20px;
+        }
+        .container24{
+            padding-left: 20px;padding-top: 20px;
+        }
+        .container25{
+             padding-left: 20px;
+             padding-right: 20px;
+             padding-bottom: 20px;
+        }
+        .co{
+            float: left; background-color: rgb(235, 209, 250); width: 400px; height: 130px;
+                    margin-left: 20px; padding: bottom 20px;
+        }
+        .og{
+            padding-left: 20px;
+                        padding-top: 5px;
+        }
+        .po{
+            padding-left: 20px;
+                        padding-right: 20px;
+                        padding-bottom: 20px;
+        }
+        .tr{
+            width: 95%; height: 130px; background-color: rgb(243, 234, 193); margin-top: 430px;
+           margin-left: 17px;
+           padding-right: 22px;
+        }
+        .im{
+            margin-left: 20px;padding-top: 20px;
+        }
+        .not{
+            margin-left: 20px;
+        }
+        .rit{
+            margin-left: 20px;
+        }
+        .ki{
+            background-color: rgb(43, 119, 150); width: 100%; height: 50PX; margin-top: 20px;
+        }
+        .lp{
+            color: white;padding-top: 15px;text-align: center;
+        }
+    </style>
+</head>
+
+<body>
+    <div id="container1">
+        <div class="container2">
+            <h1 class="ii">Float-Based Web Layout</h1>
+            <div id="container3">
+
+                <div class="container4">
+                    Home
+                </div>
+                <div class="container5">
+                    About
+                </div>
+                <div class="container6">
+                    Service
+                </div>
+                <div class="container7">
+                    Contact
+                </div>
+            </div>
+            <div class="container8">
+                <div id="cp">
+                    <h3 class="container9">Sidebar</h3>
+                    <span id="container10">Menu Item 1</span><br>
+                    <hr class="container11">
+                    <span id="container12">Menu Item 2</span><br>
+                    <hr class="container13">
+                    <span id="container14">Menu Item 3</span><br>
+                    <hr class="container15">
+                    <span id="container16">Menu Item 4</span><br>
+                    <hr class="container17">
+                    <span id="container18">Menu Item 5</span><br>
+                </div>
+                <div class="container19">
+                    <div class="container20">
+                        <h2 class="container21">Main Content Area</h2>
+                        <p class="container22">This layout is created using CSS float properties. The sidebar is
+                            floated left, and the main content sits beside it.</p>
+                        <div class="container23">
+                            <h3 class="container24">Float Column 1</h3>
+                            <p class="container25">This column is floated left. Float was commonly used before Flexbox
+                                and CSS Grid</p>
+                        </div>
+
+                        <div class="co">
+                            <h3 class="og">Float Column 2</h3>
+                            <p class="po">This column is also floated left. using float for layout requires
+                                careful clearing of floats.</p>
+                        </div>
+                    </div>
+
+                </div>
+
+            </div>
+           <div class="tr" >
+
+          <h3 class="im">About Float Layouts</h3>
+
+          <p class="not">Css float is a property that positions an element to the left or right if its container,allowing text and inline elements to wrap around it.</p>
+
+          <p class="rit">While float is still useful for wrapping text around images,it's no longer the preferred method for creating complex page layouts.</p>
+
+        </div>
+
+         <div class="ki">
+          <p class="lp">@2023 Float Layout Example.All rights reserved.</p>
+         </div>
+
+        </div>
+    </div>
+
+</body>
+
+</html>
